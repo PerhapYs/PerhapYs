@@ -28,11 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02D39A358BE0C3D04318EFC1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		02D39A358BE0C3D04318EFC1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2C972637B4FCD6953871FF77 /* Pods_PerhapYs_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerhapYs_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36451B10A96BBEB90A82BE4E /* Pods-PerhapYs_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerhapYs_Example.debug.xcconfig"; path = "Target Support Files/Pods-PerhapYs_Example/Pods-PerhapYs_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		452CB7EDCB4A074CA5CB92BD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		50C83CE1844FEF4764B67F6F /* PerhapYs.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PerhapYs.podspec; path = ../PerhapYs.podspec; sourceTree = "<group>"; };
+		452CB7EDCB4A074CA5CB92BD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		50C83CE1844FEF4764B67F6F /* PerhapYs.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PerhapYs.podspec; path = ../PerhapYs.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		553476F34607E5066735FD0D /* Pods-PerhapYs_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerhapYs_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PerhapYs_Tests/Pods-PerhapYs_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* PerhapYs_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerhapYs_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				553476F34607E5066735FD0D /* Pods-PerhapYs_Tests.debug.xcconfig */,
 				9FB06A087D56F7C8F60526BD /* Pods-PerhapYs_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

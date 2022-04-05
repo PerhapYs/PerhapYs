@@ -1,0 +1,6 @@
+framework module PerhapYs {
+  umbrella header "PerhapYs-umbrella.h"
+
+  export *
+  module * { export * }
+}

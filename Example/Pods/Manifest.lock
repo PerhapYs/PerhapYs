@@ -1,0 +1,16 @@
+PODS:
+  - PerhapYs (0.1.0)
+
+DEPENDENCIES:
+  - PerhapYs (from `../`)
+
+EXTERNAL SOURCES:
+  PerhapYs:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PerhapYs: b7e69de4dd8b675762c9aa23a479cfa7d3f3d50a
+
+PODFILE CHECKSUM: af1fe70cfb539dcafbb605e9efb5f594f9c50492
+
+COCOAPODS: 1.11.3
