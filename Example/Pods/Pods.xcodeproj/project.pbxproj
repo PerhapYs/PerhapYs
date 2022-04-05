@@ -14,7 +14,6 @@
 		3C61DB6B4F245BA45BF458306DA4AEE9 /* Pods-PerhapYs_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A69BE9C1FDA17FDD6D2B680F98BF422D /* Pods-PerhapYs_Example-dummy.m */; };
 		69B4345E80703F55B0A1F8730FAF8254 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6FF68467E9D78958F83797E306870FC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		951154DD1C0AD3D11B6DE0B6E4E43347 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED5EA214C7760FF557693B6C13A7F73 /* ReplaceMe.swift */; };
 		E07C6F4F3B2EF58FE16C176A9A828799 /* PerhapYs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B004189CF9949E5D1E563BCE85866619 /* PerhapYs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E25A58E6780CB8F9CDABB1F550AC9CC1 /* Pods-PerhapYs_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E292C17600D36BC6BC7C24EFC33B513 /* Pods-PerhapYs_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -39,7 +38,7 @@
 /* Begin PBXFileReference section */
 		0DA364F2CCF0478DF12913C8EDF68390 /* Pods-PerhapYs_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PerhapYs_Tests"; path = Pods_PerhapYs_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E325861BE4AA46F88C37AC3C505ADB /* PerhapYs-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PerhapYs-prefix.pch"; sourceTree = "<group>"; };
-		1D67BE1C6C9C1A774628E9D18B058037 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1D67BE1C6C9C1A774628E9D18B058037 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1E7EAA4F65BC9127C26095D494081A5E /* Pods-PerhapYs_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PerhapYs_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		27C5191C331E3F2BD225D54F6E809437 /* PerhapYs.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PerhapYs.modulemap; sourceTree = "<group>"; };
 		2E292C17600D36BC6BC7C24EFC33B513 /* Pods-PerhapYs_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PerhapYs_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -55,7 +54,7 @@
 		88794A43687A61A507100D995C6F1137 /* Pods-PerhapYs_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PerhapYs_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8A9DB4A17C5CBEEE3BCD5FD6A55C27C3 /* PerhapYs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PerhapYs.release.xcconfig; sourceTree = "<group>"; };
 		8F8B6E0DCC52C135CDF65DC4FF2090DC /* Pods-PerhapYs_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PerhapYs_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E44F3C88DEC1D2ECC8D0FA6FFF89900 /* Pods-PerhapYs_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PerhapYs_Tests-Info.plist"; sourceTree = "<group>"; };
 		A026FD4C55C65709553B994A37B262E9 /* Pods-PerhapYs_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PerhapYs_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A0F5D05DF533523D6EFA5F042CE95753 /* Pods-PerhapYs_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PerhapYs_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,9 +62,8 @@
 		A6D4096EF30B2F8F5548762470C7CC82 /* Pods-PerhapYs_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PerhapYs_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AA1A191103C08A7A5143110E738274D1 /* Pods-PerhapYs_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PerhapYs_Example"; path = Pods_PerhapYs_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B004189CF9949E5D1E563BCE85866619 /* PerhapYs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PerhapYs-umbrella.h"; sourceTree = "<group>"; };
-		BE06C310D063F6037F76D9E91572D7CE /* PerhapYs.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PerhapYs.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C2BCA133B57CF369F6A4F151D943FCB9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		CED5EA214C7760FF557693B6C13A7F73 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PerhapYs/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		BE06C310D063F6037F76D9E91572D7CE /* PerhapYs.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PerhapYs.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C2BCA133B57CF369F6A4F151D943FCB9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D1B74064AA4D2101F5B133FAF307C3C1 /* Pods-PerhapYs_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PerhapYs_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D784DE9E96ECA42ED13C853E25669DF1 /* Pods-PerhapYs_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PerhapYs_Example-umbrella.h"; sourceTree = "<group>"; };
 		DC2DBC26C422A337FCA2B8E0729D14D8 /* Pods-PerhapYs_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PerhapYs_Example-Info.plist"; sourceTree = "<group>"; };
@@ -215,7 +213,6 @@
 		F9C73C548C77D895E43D96DE4521788A /* PerhapYs */ = {
 			isa = PBXGroup;
 			children = (
-				CED5EA214C7760FF557693B6C13A7F73 /* ReplaceMe.swift */,
 				C67BD5744F65F4A49B17FCC8B1BACF4C /* Pod */,
 				5FC40E8EE51DA02E096D5C48E8986417 /* Support Files */,
 			);
@@ -376,7 +373,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				312C49E966CF2D6A8066252188B72507 /* PerhapYs-dummy.m in Sources */,
-				951154DD1C0AD3D11B6DE0B6E4E43347 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,8 +714,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
