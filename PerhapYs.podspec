@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                            this project help me develop my ios
                        DESC
 
   s.homepage         = 'https://github.com/PerhapYs/PerhapYs'
@@ -27,9 +27,10 @@ TODO: Add long description of the pod here.
   s.author           = { 'PerhapYs' => '370060080@qq.com' }
   s.source           = { :git => 'https://github.com/PerhapYs/PerhapYs.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.platform         = :ios
+  s.requires_arc      = true
   s.ios.deployment_target = '10.0'
-
+  s.swift_versions   = '5.0'
   s.source_files = 'PerhapYs/Classes/**/*'
   
   # s.resource_bundles = {
