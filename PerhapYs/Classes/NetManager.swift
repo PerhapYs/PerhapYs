@@ -6,6 +6,7 @@
 //
 
 import Foundation
+#if canImport(Alamofire) && canImport(HandyJSON)
 import Alamofire
 import HandyJSON
 
@@ -384,3 +385,5 @@ extension String{
         return host + self
     }
 }
+
+#endif
