@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'PerhapYs' => '370060080@qq.com' }
-  s.source           = { :git => 'https://github.com/PerhapYs/PerhapYs.git', :tag => 'v1.0.0.7'}
+  s.source           = { :git => 'https://github.com/PerhapYs/PerhapYs.git', :tag => 'v1.0.0.8'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.platform         = :ios
   s.requires_arc      = true
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   #   'PerhapYs' => ['PerhapYs/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = 'Pod/Classes/*.swift'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
