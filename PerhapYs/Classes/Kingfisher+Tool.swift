@@ -6,6 +6,7 @@
 //
 
 import UIKit
+#if canImport(Kingfisher)
 import Kingfisher
 
 extension UIImageView{
@@ -29,3 +30,4 @@ extension UIButton{
         self.kf.setImage(with: url, for: state, placeholder: nil, options: nil, progressBlock: nil, completionHandler: nil)
     }
 }
+#endif
