@@ -6,6 +6,7 @@
 //
 
 import UIKit
+#if canImport(BSText)
 import BSText
 
 class PYChatBoxLeftCollectionViewCell : PYChatBoxCollectionViewCell{
@@ -115,3 +116,4 @@ class PYChatBoxCollectionViewCell: UICollectionViewCell {
         return label
     }()
 }
+#endif
