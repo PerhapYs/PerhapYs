@@ -6,6 +6,7 @@
 //
 
 import UIKit
+#if canImport(IQKeyboardManagerSwift)
 import IQKeyboardManagerSwift
 
 
@@ -27,3 +28,4 @@ class IQKBManager: NSObject {
         IQKeyboardManager.shared.enable = true
     }
 }
+#endif
