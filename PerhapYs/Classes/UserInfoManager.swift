@@ -6,6 +6,7 @@
 //
 
 import Foundation
+#if canImport(HandyJSON)
 import HandyJSON
 
 class LocalUserToken : PYArchiverObject , HandyJSON{
@@ -48,3 +49,4 @@ struct UserInfoManager{
         CtnManager.pushStartLogin()
     }
 }
+#endif
