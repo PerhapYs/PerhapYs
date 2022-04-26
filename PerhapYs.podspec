@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PerhapYs'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'my develop toolBox'
 
 # This description is used to generate tags and improve search results.
@@ -18,20 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-                            this project help me develop my ios
+                            this pod help me develop my swift development
                        DESC
 
   s.homepage         = 'https://github.com/PerhapYs/PerhapYs'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'PerhapYs' => '370060080@qq.com' }
-  s.source           = { :git => 'https://github.com/PerhapYs/PerhapYs.git', :tag => 'v1.0.0.10'}
+  s.source           = { :git => 'https://github.com/PerhapYs/PerhapYs.git', :tag => 'v1.0.1.0'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.platform         = :ios
   s.requires_arc      = true
   s.ios.deployment_target = '10.0'
   s.swift_versions   = '5.0'
-  s.source_files = 'PerhapYs/Classes/*'
+  s.source_files = 'PerhapYs/Classes/*','PerhapYs/Classes/Base/*','PerhapYs/Classes/Custom/*','PerhapYs/Classes/Define/*','PerhapYs/Classes/Extension/*','PerhapYs/Classes/Manager/*'
   
   # s.resource_bundles = {
   #   'PerhapYs' => ['PerhapYs/Assets/*.png']
