@@ -1,0 +1,19 @@
+
+// 更新Pod的命令
+
+1.pod lib lint   //本地验证   // 如果使用了私有库，则使用--sources来标明   pod lib lint --sources=[私有仓库repo地址],[私有库git地址],https://github.com/CocoaPods/Specs.git
+
+
+2.pod spec lint  //远程验证  //pod spec lint --sources=[私有仓库repo地址],[私有库git地址],https://github.com/CocoaPods/Specs.git
+# 或者只添加前面两项，最后一项可以忽略
+pod spec lint --sources=[私有仓库repo地址],[私有库git地址]
+
+3. 1，2可以配合其他命令使用  a.忽略警告:  --allow-warnings    b.显示详情。--verbose
+
+
+4.如果没有登陆/注册    pod trunk register + 你的邮箱。 // 会发邮件到你的邮箱，点击发送给你的链接确定
+
+5.pod trunk me 
+
+6.pod trunk push + .podspec位置
+
